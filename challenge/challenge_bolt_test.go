@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	challengestore "github.com/micromdm/scep/v2/challenge/bolt"
-	"github.com/micromdm/scep/v2/scep"
-	scepserver "github.com/micromdm/scep/v2/server"
+	challengestore "github.com/cruiz1391/scep/v2/challenge/bolt"
+	"github.com/cruiz1391/scep/v2/scep"
+	scepserver "github.com/cruiz1391/scep/v2/server"
 
 	"github.com/boltdb/bolt"
 )

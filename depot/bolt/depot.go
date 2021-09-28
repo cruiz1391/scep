@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/micromdm/scep/v2/depot"
+	"github.com/cruiz1391/scep/v2/depot"
 
 	"github.com/boltdb/bolt"
 )
@@ -185,7 +185,7 @@ func (db *Depot) HasCN(cn string, allowTime int, cert *x509.Certificate, revokeO
 	}
 	var hasCN bool
 	err := db.View(func(tx *bolt.Tx) error {
-		// TODO: "scep_certificates" is internal const in micromdm/scep
+		// TODO: "scep_certificates" is internal const in cruiz1391/scep
 		curs := tx.Bucket([]byte("scep_certificates")).Cursor()
 		prefix := []byte(cert.Subject.CommonName)
 		for k, v := curs.Seek(prefix); k != nil && bytes.HasPrefix(k, prefix); k, v = curs.Next() {

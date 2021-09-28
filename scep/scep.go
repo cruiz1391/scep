@@ -12,8 +12,8 @@ import (
 	"encoding/asn1"
 	"encoding/base64"
 
-	"github.com/micromdm/scep/v2/cryptoutil"
-	"github.com/micromdm/scep/v2/cryptoutil/x509util"
+	"github.com/cruiz1391/scep/v2/cryptoutil"
+	"github.com/cruiz1391/scep/v2/cryptoutil/x509util"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

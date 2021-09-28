@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/micromdm/scep/v2/cryptoutil"
+	"github.com/cruiz1391/scep/v2/cryptoutil"
 )
 
 // CACert represents a new self-signed CA certificate
