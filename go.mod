@@ -1,4 +1,4 @@
-module github.com/cruiz1391/scep
+module github.com/cruiz1391/scep/v3
 
 go 1.16
 
